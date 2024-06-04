@@ -7,12 +7,15 @@
 
 
 
-// Chiedere all’utente il numero di chilometri che vuole percorrere
+// Chiedere all’utente il numero di chilometri che vuole percorrere (trasformo in numero perché poi moltiplicazione)
+let km = parseInt(prompt("Inserisci il numero di chilometri che vuoi percorrere"));
 
-
+console.log(km);
 
 // Chiedere all’utente l’età
+let ageUser = parseInt(prompt("Inserisci i tuoi anni in numero"));
 
+console.log(ageUser);
 
 
 // calcolo prezzo
