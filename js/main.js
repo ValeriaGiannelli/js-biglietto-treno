@@ -46,9 +46,10 @@ if(ageUser < 18){ // se età minore 18 -> sconto 20%
 console.log("il costo del tuo biglietto è di:", ticketPrice);
 
 
-
 // arrotondo il prezzo con due decimali
-
+let ticketPriceRounded = ticketPrice.toFixed(2);
+console.log(ticketPriceRounded);
 
 
 // output a schermo: "il prezzo del biglietto è: "
+document.getElementById("my_ticket").innerHTML = `Il prezzo del tuo biglietto è di ${ticketPriceRounded} euro!`;
